@@ -3,22 +3,64 @@
 <html>
 
 	<head>
-		<!-- <script src="portfolio.js"></script> -->
+		<script src="portfolio.js"></script>
 		<link rel="stylesheet" type="text/css" href="portfolio.css">
 
 		<title>Portfolio - Ryan Haefner</title>
 	</head>
-	
+	<nav class='nav'>
+		<p class='logo'>LOGO</p>
+		<div class='buttons'>
+			|<button id='homeButton' class='navButton' onclick='homeScroll()'>HOME</button> | 
+			<button id='homeButton' class='navButton' onclick='projectsScroll()'>PROJECTS</button> | 
+			<button id='contactButton' class='navButton' onclick='contactScroll()'>CONTACT</button>
+		</div>
+		<br>
+	</nav>
+	<br><br>
 	<body class='backgroundImage'>
 		<div id='boundingBox'>
-			<h1>RYAN HAEFNER</h1>
-			<div id='contactInfo'>
-				<p>haefner.ryan@gmail.com</p>
-				<p>___-___-____</p>
+			<div class='pageView' id='home'>
+				<h1>RYAN HAEFNER</h1>
+				<div class='centered'>
+					<p>test</p>
+					<p>test</p>
+				</div>
 			</div>
-
+			<div class='pageView' id='projects'>
+				<div class='centered'>
+					<div>
+						<div class='project'>
+							<p>PROJECT #1</p>
+							<p>CALCULATOR</p>
+						</div>
+						<div class='project'>
+							<p>PROJECT #2</p>
+							<p>CALCULATOR JQEURY</p>
+						</div>
+					</div>
+					<div>
+						<div class='project'>
+							<p>PROJECT #3</p>
+							<a href="../Football-Scores/soccerScores.html">SOCCER SCORES & TABLES</a>
+						</div>
+						<div class='project'>
+							<p>PROJECT #3</p>
+							<p>GAME</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='pageView' id='contactInfo'>
+				<div class='centered'>
+					<div class='info'><p>haefner.ryan@gmail.com</p></div>
+					<div class='info'><p>(248) 880-1714</p></div>
+					<a href="Resume_Ryan_Haefner.pdf" download><div class='contact'>RESUME</div></a>
+					<a href="Cover_Letter_Ryan_Haefner.pdf" download><div class='contact'>COVER LETTER</div></a>
+					<a href="https://www.linkedin.com/in/ryan-haefner-259432188/"><div class='contact'>LINKEDIN</div></a>
+				</div>
+			</div>
 		</div>
 	</body>
-
 </html>
 
