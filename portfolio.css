@@ -84,7 +84,8 @@ p {
 
 .logo {
     box-sizing: border-box;
-    height: 100%;
+    height: 75px;
+    width: 75px;
     display: inline;
     float: left;
 }
