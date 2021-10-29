@@ -21,6 +21,9 @@
 	<br><br>
 	<body class='backgroundImage'>
 		<div id='boundingBox'>
+			<!-- <div class='scrollerButtons'>
+				<button class='btn'>UP</button><button class='btn'>DOWN</button>
+			</div> -->
 			<div class='pageView' id='home'>
 				<div class='centered pLeft'>
 					<h1>RYAN HAEFNER</h1>
@@ -29,39 +32,45 @@
 				</div>
 			</div>
 			<div class='pageView' id='about'>
-				<div class='centered'>
-					<p>BIO</p>
+				<div class='centered bio'>
+					<p class='bioText'>MY NAME IS RYAN HAEFNER</p>
+					<p class='bioText'>WELCOME TO MY PORTFOLIO</p>
+					<br><br>
+					<p class='bioText'>BY DEGREE I'M A MECHANICAL ENGINEER</p>
+					<p class='bioText'>THROUGH SELF TEACHING I'M A NOVICE WEB DEVELOPER</p>
+					<br><br>
+					<p class='bioText'>SCROLL TO SEE MY PROJECTS</p>
 				</div>
 			</div>
 			<div class='pageView' id='projects'>
-				<div class='centered'>
-					<div>
-						<div class='project'>
-							<a href="https://haefneryan.github.io/Calculator/Calculator2.html" target='_blank'>
-								<img src='images/calculatorPreview.JPG' class='previewImage'>
-								<p>CALCULATOR</p>
-							</a>
+				<div class='centered projectsGrid'>
+					<a href="https://haefneryan.github.io/Calculator/Calculator2.html" target='_blank' title='Calculator'>
+						<div class="grid-item">
+							<img src='images/calculatorPreview.JPG' class='previewImage'>
+							<p class="grid-item-text">CALCULATOR</p>
 						</div>
-						<div class='project'>
-							<a href="https://haefneryan.github.io/Calculator/Calculator2.html" target='_blank'>
-								<img src='images/calculatorPreview.JPG' class='previewImage'>
-								<p>JQUERY CALCULATOR</p>
-							</a>
+					</a>
+					<!-- <a href="https://haefneryan.github.io/Calculator/Calculator2.html" target='_blank' title='JQuery Calculator'>
+						<div class="grid-item">
+							<img src='images/calculatorPreview.JPG' class='previewImage'>
+							<p class="grid-item-text">JQUERY CALCULATOR</p>
 						</div>
-					</div>
-					<div>
-						<div class='project'>
-							<a href="https://haefneryan.github.io/Football-Scores/soccerScores.html" target='_blank'>
-								<img src='images/soccerScoresPreview.JPG' class='previewImage'>
-								<p>SOCCER SCORES & TABLES</p>
-							</a>
+					</a> -->
+					<a href="https://haefneryan.github.io/Football-Scores/soccerScores.html" target='_blank' title='Soccer Scores & Tables (API)'>
+						<div class="grid-item">
+							<img src='images/soccerScoresPreview.JPG' class='previewImage'>
+							<p class="grid-item-text">SOCCER SCORES & TABLES (API)</p>
 						</div>
-						<div class='project'>
-							<a href="https://haefneryan.github.io/Tic-Tac-Toe/index.html" target='_blank'>
-								<img src='images/tictactoePreview.JPG' class='previewImage'>
-								<p>TIC-TAC-TOE GAME</p>
-							</a>
+					</a>
+					<a href="https://haefneryan.github.io/Tic-Tac-Toe/index.html" target='_blank' title='Tic-Tac-Toe Game'>
+						<div class="grid-item">
+							<img src='images/tictactoePreview.JPG' class='previewImage'>
+							<p class="grid-item-text">TIC-TAC-TOE GAME</p>
 						</div>
+					</a>
+					<div class="grid-item grid-item-last" title='Ask for information about Scheudling Tool'>
+						<img src='images/schedulingToolPreview.JPG' class='previewImage'>
+						<p class="grid-item-text">SCHEDULING TOOL</p>
 					</div>
 				</div>
 			</div>

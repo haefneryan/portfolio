@@ -40,7 +40,8 @@ h1 {
 .pageView {
     box-sizing: border-box;
     position: relative;
-    padding: 50px;
+    padding: 30px;
+    padding-top: 50px;
     width: 100%;
     height: 90vh;
 }
@@ -145,4 +146,72 @@ h1 {
     display: inline;
     width: 100%;
     height: 80%;
+}
+
+.projectsGrid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-around;
+    align-content: center;
+    gap: 10px;
+    /* grid-template-areas: 
+        'content content'
+        'content content'     
+        'footer footer'; */
+    
+}
+
+.grid-item {
+    box-sizing: border-box;
+    color: white;
+    height: 200px;
+    border: 1px solid white;
+    /* border-radius: 20px; */
+    position: relative;
+    /* grid-area: content; */
+}
+
+.grid-item:hover {
+    border: 3px solid red;
+}
+
+.grid-item-last {
+    /* grid-area: footer; */
+    cursor: not-allowed;
+}
+
+.grid-item-text {
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    justify-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.bio {
+    text-align: left;
+}
+
+.bioText {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.scrollerButtons {
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    right: 100px;
+    bottom: 0;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    height: 100%;
+    width: 50px;
+    border: 1px solid white;
 }
