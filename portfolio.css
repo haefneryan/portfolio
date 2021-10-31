@@ -149,23 +149,22 @@ h1 {
 }
 
 .projectsGrid {
-    width: 90%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     justify-content: space-around;
     align-content: center;
-    gap: 10px;
+    gap: 20px;
     /* grid-template-areas: 
         'content content'
         'content content'     
         'footer footer'; */
-    
 }
 
 .grid-item {
     box-sizing: border-box;
     color: white;
-    height: 250px;
+    height: 200px;
     border: 1px solid white;
     /* border-radius: 20px; */
     position: relative;
