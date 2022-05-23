@@ -32,6 +32,10 @@ h1 {
     font-size: 100px;
 }
 
+iframe {
+    pointer-events: none;
+}
+
 .pLeft {
     text-align: left;
     left: 50%;
@@ -213,10 +217,6 @@ nav {
     border: 1px solid white;
     margin: 20px;
     position: relative;
-}
-
-.grid-item:hover {
-    border: 3px solid red;
 }
 
 .grid-item-last {
