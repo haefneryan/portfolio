@@ -21,7 +21,8 @@ img {
 a {
     color: white;
     text-decoration: none;
-    margin: 20px;
+    /* margin: 20px; */
+    padding: 0px;
 }
 
 .iframe-container {
@@ -148,6 +149,7 @@ nav {
     height: 100%;
     width: 100%;
     padding-top: 25%;
+    height: 75%;
 }
 
 .centered {
